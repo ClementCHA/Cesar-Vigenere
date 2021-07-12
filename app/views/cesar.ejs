@@ -1,0 +1,18 @@
+<%- include('partials/header')%>
+
+    <form action="/cesar" method="POST">
+        
+          <label for="messageToEncode">Message à encoder :</label>
+          <input type="messageToEncode" name="messageToEncode" required>
+        
+        
+        
+          <label for="vigenereKey">Entrer votre key Vigenere </label>
+          <input type="vigenereKey" name="vigenereKey"required>
+        
+        
+       <button type="submit">Demarrer l'encodage</button>
+       
+    </form>
+     
+<%- include('partials/footer')%>
